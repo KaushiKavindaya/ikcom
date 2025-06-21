@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>ik com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/css">
+
+      .fa-location-dot::before {
+          content: "\f3c5";
+      }
+      
+      .footer3-section-area {
+          position: relative;
+          z-index: 1;
+          background-image: url(../assets/img/bg/footer-bg1.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding: 120px 0 80px;
+      }
+      
+      .space40 {
+          height: 40px;
+      }
+      .footer3-section-area .footer3-bottom-section {
+          position: relative;
+          z-index: 2;
+      }
+      @media (min-width: 1200px) {
+          .container, .container-lg, .container-md, .container-sm, .container-xl {
+              max-width: 1140px;
+          }
+      }
+      @media (min-width: 992px) {
+          .col-lg-12 {
+              flex: 0 0 auto;
+              width: 100%;
+          }
+      }
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area {
+          background: #fff;
+          border-radius: 16px;
+          box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+          position: relative;
+          padding: 40px 60px;
+          z-index: 2;
+          height:294px ;
+      }
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-logo img {
+          width: 150px;
+          height: 48px;
+          -o-object-fit: contain;
+          object-fit: contain;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu ul li {
+          display: block;
+          transition: all 0.4s;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu ul li a {
+          color: var(--ztc-text-text-8);
+          font-family: var(--ztc-family-font2);
+          font-size: var(--ztc-font-size-font-s16);
+          font-style: normal;
+          font-weight: var(--ztc-weight-medium);
+          line-height: 16px;
+          transition: all 0.4s;
+          display: inline-block;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu ul li {
+          display: block;
+          transition: all 0.4s;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu2 ul li {
+          display: block;
+          transition: all 0.4s;
+      }
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu2 ul li a {
+          color: var(--ztc-text-text-8);
+          font-family: var(--ztc-family-font2);
+          font-size: var(--ztc-font-size-font-s16);
+          font-style: normal;
+          font-weight: var(--ztc-weight-medium);
+          line-height: 24px;
+          transition: all 0.4s;
+          display: flex
+      ;
+          text-transform: capitalize;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu2 ul li a i {
+          margin: 0 6px 0 0;
+      }
+      
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-social ul li {
+          display: inline-block;
+      }
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-social ul li a {
+          height: 48px;
+          width: 48px;
+          text-align: center;
+          line-height: 48px;
+          transition: all 0.4s;
+          border-radius: 50%;
+          display: inline-block;
+          background: #D0DAD8;
+          color: var(--ztc-text-text-10);
+      }
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .copyright-area {
+          padding-top: 24px;
+          border-top: 1px solid #E6E6E7;
+          text-align: center;
+      }
+      .footer3-section-area .footer3-bottom-section .footer-bottom-area .copyright-area p {
+          color: var(--ztc-text-text-8);
+          font-family: var(--ztc-family-font2);
+          font-size: var(--ztc-font-size-font-s16);
+          font-style: normal;
+          font-weight: var(--ztc-weight-medium);
+          line-height: 24px;
+          display: inline-block;
+          transition: all 0.4s;
+          opacity: 0.6;
+      }
+            .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+      .tab button {
+        background-color: #ddd;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        margin-left: 5px;
+        margin-top: 3px;
+      }
+      .tab button:hover {
+        background-color: #ddd;
+      }
+      
+      .tab button.active {
+        background-color: #ccc;
+      }
+      
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #000;
+      }
+      .tabcontent ul {
+          margin: 0;
+          padding: 0
+      }
+      .topright {
+        float: right;
+        cursor: pointer;
+        font-size: 28px;
+      }
+      
+      .topright:hover {color: red;}
+      
+      #myImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .btn-area-author .search-icon a {
+        right: 19px;
+        position: relative;
+        font-size: var(--ztc-font-size-font-s24);
+        color: #000;
+        font-weight: var(--ztc-weight-regular);
+        top: -3px;
+      }
+      
+      .btn-area-author {
+        display: flex;
+        align-items: center;
+      }
+      
+      .btn-area-author ul li {
+          display: inline-block;
+      }
+      
+      .btn-area-author ul li a {
+          height: 40px;
+          width: 40px;
+          text-align: center;
+          line-height: 40px;
+          display: inline-block;
+          transition: all 0.4s;
+          border-radius: 50%;
+          background: #E6E8E7;
+          color: #000;
+          margin: 0 10px 0 0;
+      }
+      
+      .btn-area-author .search-icon a span {
+          background: #E6E8E7;
+          height: 32px;
+          display: inline-block;
+          width: 2px;
+          border: 4px;
+          margin: 0 6px 0 16px;
+          position: relative;
+          top: 7px;
+      }
+      
+      .btn-area-author ul li a i::before{
+          height: 16px !important;
+          width: 10px !important;
+          
+      }
+      
+      .header-search-form-wrapper.open {
+          transition: transform 0.85s cubic-bezier(0.175, 1, 0.275, 1), visibility 0.8s step-start;
+          transform: translate3d(0, 0, 0);
+      }
+      
+      .header-search-form-wrapper {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 400px;
+          z-index: 9999;
+          background-color: #fff;
+          transform: translate3d(0, -100%, 0);
+          transition: transform 0.85s cubic-bezier(0.175, 1, 0.275, 1), visibility 0.8s step-end;
+      }
+      
+      .header-search-form-wrapper .search-form input[type=search] {
+          height: 65px;
+          line-height: 65px;
+          font-size: 28px;
+          background-color: transparent;
+          text-align: left;
+          border: none;
+          border-bottom: 1px solid #dddbdb;
+          padding-left: 0;
+          border-radius: 0;
+          width: 100%;
+          color: var(--ztc-text-text-2);
+      }
+      
+      .header-search-container form input {
+          outline: none;
+          border: none;
+          background: none;
+          font-family: var(--ztc-family-font2);
+          font-weight: 500;
+      }
+      .header-search-form-wrapper .tx-search-close {
+          background: rgba(204, 204, 204, 0.2705882353);
+          width: 54px;
+          height: 54px;
+          border-width: 18px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          z-index: 2;
+          line-height: 54px;
+          text-align: center;
+          cursor: pointer;
+          font-size: 30px;
+          
+      }
+      .header-area.homepage3.sticky {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          transform: translate3d(0, 0, 0);
+          z-index: 111;
+          animation-name: fade-in-down;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          background: var(--ztc-text-text-1);
+          transition: all 0.4s;
+          box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+      }
+          </style>
+          
+
+  </head>
+
+  <body>
+
+
+    <header>
+      <nav>
+      <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#"><img src="assets/images/ikcom.jpg"></a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name"><img src="assets/images/ikcom.jpg"></a></span>
+            <i class='bx bx-x' ></i>
+          </div>
+          <ul class="links">
+ <li><a href="../index.html">Home</a></li>
+
+              <li>
+              <a href="underconstruction.html">Products</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li class="more">
+                  <span><a href="coppernetwork.html">Copper Network Cabling</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="Keystorn.html">Keystorn Jacks & Couplers</a></li>
+                    <li><a href="FieldTerminationConnecters.html">Field Termination Connecters</a></li>
+                    <li><a href="WallPlatesWorkstationOutlets.html">Wall Plates/ Workstation Outlets</a></li>
+                    <li><a href="PatchPanels.html">Patch Panels</a></li>
+                    <li><a href="RackCabelManagements.html">Rack Cabel Managements</a></li>
+                    <li><a href="indoorCables.html">Indoor Cables</a></li>
+                    <li><a href="outdoorCables.html">Outdoor Cables</a></li>
+                    <li><a href="PatchFlyCords.html">Patch / Fly Cords</a></li>
+                    <li><a href="IndustrialNetwork.html">Industrial Network</a></li>
+                    <li><a href="PushPullRJ45System.html">Push & Pull RJ45 System</a></li>
+                  </ul>
+                </li>
+                <li class="more">
+                  <span><a href="OpticalFiberCabling.html">Optical Fiber Cabling</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="opticalcablesindoor.html">Indoor</a></li>
+                    <li><a href="opticalcablesoutdoor.html">Outdoor</a></li>
+                  </ul>
+                </li>
+               
+                <li class="more">
+                  <span><a href="underconstruction.html">Home Wiring System</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">Neumorphism</a></li>
+                    <li><a href="#">Pre-loader</a></li>
+                    <li><a href="#">Glassmorphism</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="underconstruction.html">Technical Support</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="btn-area-author">
+          <div class="search-icon header__search header-search-btn">
+            <a href="#"><img src="assets/img/icons/search-icon1.svg" alt=""> <span></span></a>
+          </div>
+          <ul>
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+  
+        <div class="header-search-form-wrapper">
+          <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
+          <div class="header-search-container">
+              <form role="search" class="search-form">
+              <input type="search"  class="search-field" placeholder="Search …" value="" name="s">
+              <button type="submit" class="search-submit"><img src="assets/img/icons/search-icon1.svg" alt=""></button>
+              </form>
+          </div>
+      </div>
+      <div class="body-overlay"></div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+    </header>
+  
+  
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Home Wiring System</h1>
+            <span>Copper network cabling products refers to the copper Ethernet data cabling that interconnects servers and other pieces of IT equipment to form the communications network. </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-information">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Keystorn Jacks & Couplers</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-item">
+             <img src="assets/images/Keystonejack2.png"> 
+              <h4>Field Termination Connecters</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="FieldTerminationConnecters.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Wall Plates/ Workstation Outlets</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="contact-information">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Patch Panels</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Rack Cabel Managements</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Cables</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="contact-information">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Patch / Fly Cords</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Industrial Network</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-item">
+              <img src="assets/images/Keystonejack2.png"> 
+              <h4>Push & Pull RJ45 System</h4>
+              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
+              <a href="Keystorn.html" class="filled-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<br>
+    <br>
+    <br><br>
+    <br>
+    </div>
+
+  <!--===== FOOTER AREA STARTS =======-->
+  <div class="footer3-section-area">
+    <div class="space40"></div>
+  <div class="footer3-bottom-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-bottom-area">
+            <div class="footer-menu-area">
+              <div class="footer-logo">
+                <a href="index.html"><img src="../assets/img/logo/logoik.png" alt=""></a>
+              </div>
+              <div class="footer-menu">
+                <ul>
+       <li><a href="../index.html">Home</a></li>
+
+                  <li class="space24"></li>
+                  <li><a href="apartment-v1.html" style="margin-top: 24px;">About</a></li>
+                  <li class="space24"></li>
+                  <li><a href="gallery-v1.html" style="margin-top: 24px;">News</a></li>
+                </ul>
+              </div>
+              <div class="footer-menu" >
+                <ul>
+                  <li><a href="blog.html">Products</a></li>
+                  <li class="space24"></li>
+                  <li><a href="underconstruction.html" style="margin-top: 24px;">Technical Support</a></li>
+                  <li class="space24"></li>
+                  <li><a href="../contact.html" style="margin-top: 24px;">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-menu2">
+                <ul>
+                  <li><a href="#"> <span><i class="fa-solid fa-location-dot"></i></span> <span>15, Georgian Road, Brampton,<br> ON, Canada L6X 0L6.</span></a></li>
+                  <li class="space24" style="height: 30px;"></li>
+                  <li><a href="tel:1 416 568 6277"><span><i class="fa-solid fa-phone"></i></span> <span>1 416 568 6277</span></a></li>
+                </ul>
+              </div>
+              <div class="footer-social">
+               <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+               </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="space48" style="height: 48px;"></div>
+                <div class="copyright-area">
+                  <p>© 2025 ikcom. All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== FOOTER AREA ENDS =======-->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
